@@ -17,6 +17,28 @@ body {
   margin: 0;
 }
 
+.button{
+  background: grey;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+
+}
+
+.pen__details{
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items : start;
+  align-items: end;
+}
+
+.pen__author{
+  color: grey;
+
+}
+
 h1,
 h2,
 h3,
@@ -26,5 +48,22 @@ h6 {
   font-weight: normal;
   margin: 0;
   font-size: 1.5em;
+}
+
+.pen{
+  display: grid;
+  grid-template-columns: 3fr auto-fill;
+  grid-auto-flow: column;
+  background: black;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 4px;
+}
+
+
+
+.code{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
